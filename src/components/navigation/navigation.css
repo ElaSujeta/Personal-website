@@ -1,0 +1,46 @@
+.navigation-wrapper {
+    background-color: #fff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.container {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navigationStyle {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+}
+
+.navigationLinkStyle {
+    font-size: 18px;
+    width: 50%;
+    height: 70px;
+    line-height: 70px;
+    text-decoration: none;
+    margin-left: 30px;
+    color: #105997;
+}
+
+.navigationLinkStyle:hover {
+    border-bottom: 2px solid #105997;
+}
+
+.logo {
+    width: 500px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

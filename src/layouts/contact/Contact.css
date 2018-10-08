@@ -1,0 +1,24 @@
+.contact-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-header {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.contact-type {
+    margin: 10px 0;
+}
+
+.contact-name {
+    font-weight: bold;
+    color: #105997;
+}
+
+i {
+    width: 50px;
+    height: 50px;
+}
