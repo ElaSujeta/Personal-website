@@ -4,6 +4,7 @@
     margin: 0 auto;
 }
 
+/*
 .gallery {
     display: flex;
     flex-direction: row;
@@ -71,7 +72,7 @@
 .gallery .col-13 {
     background-image: url(./images/1.JPG);
 }
-
+*/
 .gallery-header{
     color: #105997;
     font-size: 20px;
