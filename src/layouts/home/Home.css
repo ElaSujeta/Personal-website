@@ -1,0 +1,8 @@
+.main-photo {
+    width: 561px;
+    height: 600px;
+    margin: 10px auto;
+    background-image: url(./images/myhoto.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

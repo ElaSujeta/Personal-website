@@ -3,10 +3,11 @@ import React from 'react';
 import "./Home.css"
 
 
-export const Home = (props) => {
+export const Home = () => {
+    console.log()
     return (
         <div>
-            tutaj będzie strona główna
+           <div className='main-photo'> </div>
         </div>
     )
 };

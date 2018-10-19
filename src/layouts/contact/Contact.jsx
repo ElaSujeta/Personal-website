@@ -14,6 +14,17 @@ export const Contact = () => {
                 <a href='https://www.linkedin.com/in/el%C5%BCbieta-sujeta-67883098/' target='_blank'><i class="fab fa-linkedin fa-3x"></i></a>
             </p>
 
+            <div>
+                <h2 className='contact-header'>Formularz kontaktowy</h2>
+                <form method="#" action="#">
+                    <div><input type="text" name="name" id="name" placeholder="Imię"/></div>
+                    <div><input type="text" name="surname" id="surname" placeholder="Nazwisko"/></div>
+                    <div><input type="text" name="email" id="email" placeholder="Email"/></div>
+                    <div><textarea name="message" id="message" placeholder="Wiadomość"></textarea></div>
+                    <div><button type="submit" class="send-button">Wyślij</button></div>
+                </form>
+            </div>
+
         </div>
     )
 };

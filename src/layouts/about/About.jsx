@@ -1,7 +1,18 @@
 import React from 'react';
+import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
 
 import "./About.css"
+
+
+const MyMapComponent = withScriptjs(withGoogleMap((props) =>
+  <GoogleMap
+    defaultZoom={12}
+    defaultCenter={{ lat: 53.548729, lng: 23.578079 }}
+  >
+    {props.isMarkerShown && <Marker position={{ lat:  53.548729, lng:  23.578079 }} />}
+  </GoogleMap>
+))
 
 
 export const About = () => {
@@ -15,7 +26,13 @@ export const About = () => {
             <section className='container'>
                 <p className='icon'><i class="fas fa-map-marker-alt fa-7x"></i></p>
                 <h2 className='stage-header'>Tutaj dorastałam</h2>
-                <p>Tutaj będzie mapa google</p>
+                <MyMapComponent
+                    isMarkerShown
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+                    loadingElement={<div style={{ height: `100%` }} />}
+                    containerElement={<div style={{ height: `400px` }} />}
+                    mapElement={<div style={{ height: `100%` }} />}
+                />          
             </section>
             <section className='container'>
                 <p className='icon education-icon'><i class="fas fa-user-graduate fa-7x"></i></p>
