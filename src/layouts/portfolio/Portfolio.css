@@ -48,7 +48,7 @@
     opacity: 0.8;
     text-transform: uppercase;
     position: absolute;
-    top: 60px;
+    top: 40px;
     right: 70px;
     left: 70px;
 }
@@ -70,4 +70,18 @@
 
 .project-wrapper:hover {
     opacity: 0.7;
+}
+
+.open-project {
+    font-size: 15px;
+    color: #000;
+    border: hidden;
+    background-color: aliceblue;
+    opacity: 0.8;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+    bottom: 5px;
+    right: 70px;
+    left: 70px;
 }
