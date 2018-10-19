@@ -15,8 +15,10 @@ export const Portfolio = () => {
         
 
             <div className='project-wrapper project-2'>
-                <h3 className='title-project'>Projekt 2</h3>
-                <p className='description-project'>Photoshop | HTML | SASS | JavaScript</p>
+                <h3 className='title-project'>Game of life</h3>
+                <p className='description-project'> HTML | CSS | JavaScript</p>
+                <a className='open-project' href = 'https://modest-fermi-385905.netlify.com' target="_blank"><p>Uruchom aplikację</p></a>
+            
             </div>
 
             <div className='project-wrapper project-3'>
