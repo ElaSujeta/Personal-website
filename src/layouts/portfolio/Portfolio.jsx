@@ -10,14 +10,14 @@ export const Portfolio = () => {
             <div className='project-wrapper project-1'>
                 <h3 className='title-project'>Memory Game</h3>
                 <p className='description-project'> JavaScript | HTML | CSS</p>
-                <a className='open-project' href = 'https://cocky-cray-2c7e6e.netlify.com/' target="_blank"><p>Uruchom aplikację</p></a>
+                <a className='open-project' href = 'https://memory-game-se.netlify.com/' target="_blank"><p>Uruchom aplikację</p></a>
             </div>
         
 
             <div className='project-wrapper project-2'>
                 <h3 className='title-project'>Game of life</h3>
                 <p className='description-project'> HTML | CSS | JavaScript</p>
-                <a className='open-project' href = 'https://modest-fermi-385905.netlify.com' target="_blank"><p>Uruchom aplikację</p></a>
+                <a className='open-project' href = 'https://game-of-life-se.netlify.com/' target="_blank"><p>Uruchom aplikację</p></a>
             
             </div>
 

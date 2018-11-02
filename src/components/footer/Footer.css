@@ -12,3 +12,11 @@
 .copy {
     padding-top: 15px;
 }
+
+.cv_link {
+    display: block;
+    float: right;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+}

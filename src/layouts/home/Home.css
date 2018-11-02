@@ -6,3 +6,7 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+@media (max-width: 561px) {
+    width: 100vw;
+}
